@@ -1,0 +1,14 @@
+{
+  "name": "professional-discord-bot-v14",
+  "version": "1.0.0",
+  "description": "Discord.js v14 bot with professional welcome, leave, moderation, announcement and ticket systems.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  }
+}
