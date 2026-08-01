@@ -1,0 +1,15 @@
+CUSTOM WELCOME / LEAVE IMAGE SYSTEM
+
+Welcome:
+  /setwelcome channel:#welcome image:https://example.com/welcome.png
+
+Leave:
+  /setleave channel:#goodbye image:https://example.com/goodbye.png
+
+The image URL is saved in data.json under the guild configuration and is used by:
+- Automatic welcome messages
+- Automatic goodbye messages
+- /welcometest
+- /leavetest
+
+The image option is optional. Only valid http/https URLs are applied.
